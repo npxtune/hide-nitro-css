@@ -1,0 +1,46 @@
+/* CUSTOM QUICK CSS TO HIDE NITRO UPSELLS BY KHOIDIANGELO */
+
+/* Old Context CSS */
+@import url("https://milbits.github.io/oldcord/src/components/oldContext.css");
+
+[class^=bar__]:has([class^=voiceChannelsIcon__]) {
+    display: none;
+}
+
+/* Hide "Members in VC" badge */
+li.channel_c21703:nth-child(3), li.channel_c21703:nth-child(4) {
+display: none;
+}
+
+/* Hide nitro in appearance settings */
+.selectionGroup__36139, div.header_a6f6dd, div.presets__14d08 {
+    display: none;
+}
+
+
+/* Hide the Nitro & Server Boost tab in settings */
+.premiumLabel_f2cd55, div.item__48dda:nth-child(15), div.item__48dda:nth-child(14) {
+    display: none;
+}
+
+/* Hide merch button*/
+div.item__48dda:nth-child(44) {
+    display: none;
+}
+
+/* Hide the nitro ad in the profil tab */
+.container_d6bff4, .showBorder__9e03d, div.premiumFeatureBorder__9bbb3:nth-child(5), .upsellOverlayContainer__08979 {
+    display: none;
+}
+
+/* Hide gift button*/
+div.container__5eb17 {
+display: none;
+
+}
+
+/* Hide nitro ad invite */
+div.flex-2S1XBF:nth-child(4) {
+display: none;
+
+}
