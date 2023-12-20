@@ -1,22 +1,9 @@
-/* CUSTOM QUICK CSS TO HIDE NITRO UPSELLS BY KHOIDIANGELO */
-
-/* Old Context CSS */
-@import url("https://milbits.github.io/oldcord/src/components/oldContext.css");
-
-[class^=bar__]:has([class^=voiceChannelsIcon__]) {
-    display: none;
-}
-
-/* Hide "Members in VC" badge */
-li.channel_c21703:nth-child(3), li.channel_c21703:nth-child(4) {
-display: none;
-}
+/* CUSTOM QUICK CSS TO HIDE NITRO UPSELLS BY NPXTUNE */
 
 /* Hide nitro in appearance settings */
 .selectionGroup__36139, div.header_a6f6dd, div.presets__14d08 {
     display: none;
 }
-
 
 /* Hide the Nitro & Server Boost tab in settings */
 .premiumLabel_f2cd55, div.item__48dda:nth-child(15), div.item__48dda:nth-child(14) {
@@ -35,12 +22,10 @@ div.item__48dda:nth-child(44) {
 
 /* Hide gift button*/
 div.container__5eb17 {
-display: none;
-
+    display: none;
 }
 
 /* Hide nitro ad invite */
 div.flex-2S1XBF:nth-child(4) {
-display: none;
-
+    display: none;
 }
