@@ -1,17 +1,22 @@
 /* CUSTOM QUICK CSS TO HIDE NITRO UPSELLS BY NPXTUNE */
 
+/* Hide Nitro and Shop Buttons over Friends list */
+li.channel_c21703:nth-child(3), li.channel_c21703:nth-child(4) {
+display: none;
+}
+
 /* Hide nitro in appearance settings */
 .selectionGroup__36139, div.header_a6f6dd, div.presets__14d08 {
     display: none;
 }
 
 /* Hide the Nitro & Server Boost tab in settings */
-.premiumLabel_f2cd55, div.item__48dda:nth-child(15), div.item__48dda:nth-child(14) {
+.premiumLabel_f2cd55, div.item__48dda:nth-child(14), div.item__48dda:nth-child(13) {
     display: none;
 }
 
 /* Hide merch button*/
-div.item__48dda:nth-child(44) {
+div.item__48dda:nth-child(43) {
     display: none;
 }
 
