@@ -26,7 +26,7 @@ div.item__48dda:nth-child(43) {
 }
 
 /* Hide gift button*/
-div.container__5eb17 {
+.buttons_ce5b56 > button:nth-child(1) {
     display: none;
 }
 
