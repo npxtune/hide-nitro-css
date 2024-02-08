@@ -3,10 +3,10 @@
 Use the CSS file this way:
 
 - Vencord:
-Enable QuickCSS and paste in the following:
+Add the URL to your themes:
 
 ```
-@import url("https://raw.githubusercontent.com/npxtune/hide-nitro-css/main/hideNitro.css");
+https://raw.githubusercontent.com/npxtune/hide-nitro-css/main/hideNitro.css
 ```
 This should always fetch the latest version of the CSS from this GitHub repo.
 
