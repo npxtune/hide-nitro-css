@@ -1,12 +1,17 @@
 /* CUSTOM QUICK CSS TO HIDE NITRO UPSELLS BY NPXTUNE */
 
 /* Hide Nitro and Shop Buttons over Friends list */
-li.channel_c21703:nth-child(3), li.channel_c21703:nth-child(4) {
-display: none;
+#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.sidebar_e031be > nav > div.scroller__89969.thin_b1c063.scrollerBase_f742b2.fade_ba0fa0 > ul > li:nth-child(3), li:nth-child(4) {
+    display: none;
 }
 
-/* Hide nitro in appearance settings */
-.selectionGroup__36139, div.header_a6f6dd, div.presets__14d08 {
+/* Hide nitro app theme in appearance settings */
+#appearance-tab > div > div.children_aba8cb > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div {
+    display: none;
+}
+
+/* Hide nitro app icon in appearance settings */
+#appearance-tab > div > div.children_aba8cb > div:nth-child(2) > div.selectionGroup_f2b958 {
     display: none;
 }
 
@@ -20,13 +25,22 @@ div.item__48dda:nth-child(43) {
     display: none;
 }
 
-/* Hide the nitro ad in the profil tab */
-.container_d6bff4, .showBorder__9e03d, div.premiumFeatureBorder__9bbb3:nth-child(5), .upsellOverlayContainer__08979 {
+/* Hide the valorant ad in the profil tab */
+#profile-customization-tab > div.container__686c4 {
+    display: none;
+}
+
+/* Hide the nitro ads in profile tab */
+#profile-customization-tab > div.premiumFeatureBorder__6ac04.featureBorder__404e3.tryItOutSection_d658ca {
+    display: none;
+}
+
+#profile-customization-tab > div:nth-child(5) > div > div > div.sectionsContainer_d2a766 > div.upsellOverlayContainer__9580e > div.upsellOverlay__988e7 {
     display: none;
 }
 
 /* Hide gift button*/
-.buttons_ce5b56 > button:nth-child(1), .giftButtonContainer__68103 {
+#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.chat__52833 > div.content__01e65 > main > form > div > div > div > div.buttons__7ecff > button {
     display: none;
 }
 
