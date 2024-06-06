@@ -40,7 +40,7 @@ div.item__48dda:nth-child(43) {
 }
 
 /* Hide gift button*/
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.chat__52833 > div.content__01e65 > main > form > div > div > div > div.buttons__7ecff > button {
+#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.chat__52833 > div.content__01e65 > main > form > div > div > div > div > div.buttons__7ecff > button {
     display: none;
 }
 
