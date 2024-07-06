@@ -52,3 +52,7 @@ div.item__48dda:nth-child(43) {
 div.flex-2S1XBF:nth-child(4) {
     display: none;
 }
+
+#app-mount > div.appAsidePanelWrapper_bd26cc > div.notAppAsidePanel_bd26cc > div.app_bd26cc > div > div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.chat_a7d72e > div.content_a7d72e > div > div > div.none_c49869.scrollerBase_c49869 > div.overlayBackground_c69a7b.overlay2_a465ac {
+    display: none;
+}
