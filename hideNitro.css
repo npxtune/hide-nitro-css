@@ -1,7 +1,7 @@
 /* CUSTOM QUICK CSS TO HIDE NITRO UPSELLS BY NPXTUNE */
 
 /* Hide Nitro and Shop Buttons over Friends list */
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.sidebar_e031be > nav > div.scroller__89969.thin_b1c063.scrollerBase_f742b2.fade_ba0fa0 > ul > li:nth-child(3), li:nth-child(4) {
+#app-mount > div.appAsidePanelWrapper_bd26cc > div.notAppAsidePanel_bd26cc > div.app_bd26cc > div > div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > div > nav > div.scroller_c47fa9.thin_eed6a8.scrollerBase_eed6a8.fade_eed6a8 > ul > li:nth-child(3), li:nth-child(4) {
     display: none;
 }
 
@@ -16,7 +16,11 @@
 }
 
 /* Hide the Nitro & Server Boost tab in settings */
-.premiumLabel_f2cd55, div.item__48dda:nth-child(14), div.item__48dda:nth-child(13) {
+#app-mount > div.appAsidePanelWrapper_bd26cc > div.notAppAsidePanel_bd26cc > div.app_bd26cc > div > div.layers_d4b6c5.layers_a01fb1 > div:nth-child(2) > div > div.sidebarRegion_c25c6d > div > nav > div > div.premiumTab_c10c74.item_a0.themed_a0 {
+    display: none;
+}
+
+#app-mount > div.appAsidePanelWrapper_bd26cc > div.notAppAsidePanel_bd26cc > div.app_bd26cc > div > div.layers_d4b6c5.layers_a01fb1 > div:nth-child(2) > div > div.sidebarRegion_c25c6d > div > nav > div > div:nth-child(14) {
     display: none;
 }
 
@@ -25,8 +29,8 @@ div.item__48dda:nth-child(43) {
     display: none;
 }
 
-/* Hide the valorant ad in the profil tab */
-#profile-customization-tab > div.container__686c4 {
+/* Hide the palworld ad in the profil tab */
+#profile-customization-tab > div.container_da1432 {
     display: none;
 }
 
@@ -40,7 +44,7 @@ div.item__48dda:nth-child(43) {
 }
 
 /* Hide gift button*/
-#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > div > div > div.chat__52833 > div.content__01e65 > main > form > div > div > div > div > div.buttons__7ecff > button {
+#app-mount > div.appAsidePanelWrapper_bd26cc > div.notAppAsidePanel_bd26cc > div.app_bd26cc > div > div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.chat_a7d72e > div.content_a7d72e > main > form > div > div > div > div > div.buttons_d0696b > button {
     display: none;
 }
 
